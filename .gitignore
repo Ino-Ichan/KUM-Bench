@@ -1,0 +1,3 @@
+*.egg-info*
+*.json
+__pycache__/

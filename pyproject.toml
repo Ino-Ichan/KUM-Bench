@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kum_bench"
+version = "0.1.0"
+description = "Benchmark tool for Kyoto University's math entrance exam"
+requires-python = ">=3.11"
+authors = [
+    {name = "Yuichi Inoue"}
+]
+
+[tool.setuptools.packages.find]
+include = ["kum_bench*"]
